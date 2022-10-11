@@ -1,5 +1,6 @@
 from django.contrib import admin
-from api.models import Order, OrderItem, Food, Menu, MenuFoodItem
+from api.models import Order, OrderItem, Food,  MenuFoodItem
 
 # Register your models here.
-admin.register([Order, OrderItem, Food, Menu, MenuFoodItem])
+admin.site.register([Order, OrderItem, Food,  MenuFoodItem])
+

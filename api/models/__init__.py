@@ -1,3 +1,3 @@
 from .Food import Food
-from .Menu import Menu, MenuFoodItem
+from .Menu import MenuFoodItem
 from .Order import Order, OrderItem
